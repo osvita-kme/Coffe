@@ -17,7 +17,6 @@
 			flex-direction: column;
 			text-align: center;
 			margin: 50px auto;
-
 		}
 		.top{
 			background-color: #F5F6CE; 
@@ -27,17 +26,18 @@
 			background-repeat: no-repeat;			
 			background-position: left;
 			background-size: auto 100%;	
-			color:  green;
+			color: green;
+			border-bottom: 1px solid grey;
 		}
 		.middle{
 			background-color: #ECF6CE;
 			height: 600px;
 			display: flex;
-
 		}
 		.left{
 			background-color: #E0F8F7;
 			width: 15%;
+			font-size:0
 		}
 		.center{
 			width: 60%;
@@ -45,16 +45,15 @@
 			font-style: italic;
 			font-family: 'Poppins', sans-serif;
 			text-align: justify;
-			background-image: url(https://cdn.website.dish.co/media/06/db/825557.jpg);
+			<!--background-image: url(https://cdn.website.dish.co/media/06/db/825557.jpg);-->
 			background-size: cover;
 			box-sizing: border-box;
     		padding: 15px;
-    		color:  blue;
-
+    		color:  #691F0B;
 		}
 		.right{
 			font-family: 'Playball', cursive;
-			background-color: #E0F8F7;
+			background-color: #FBEFFB;
 			width: 25%;
 			text-align: left;
 			font-size: medium;
@@ -63,6 +62,7 @@
 			background-repeat: no-repeat;
 			background-size: 100%;
 			color:  blue;
+		    opacity: 0.75; 
 		}
 		.bottom{
 			height: 50px;
@@ -71,6 +71,7 @@
 			text-align: center;
 			color: #08088A;
     		padding: 2px;
+    		border-top: 1px solid grey;
 		}
 		.rating{
 			font-family: 'Playball', cursive;
@@ -84,45 +85,50 @@
 	<main>
 		<div class="container">
 			<div class="top">
-				<h1>Список найкращих кав’ярень Львова</h1>
+				<h1>Найкращі кав’ярні Львова</h1>
 				<nav>
 					<a href="http://www.kredens.com.ua/" target="_blank">Kredens Cafe</a> |
 	  				<a href="https://dominicanes.metro.rest/?lang=uk" target="_blank">Dominicanes</a>   |					
   					<a href="https://www.chocolate.lviv.ua/" target="_blank">Львівська майстерня шоколаду</a>| 
   					<a href="https://www.facebook.com/kavabeznazvy/" target="_blank">Кава to go</a>|
 					<a href="https://afishalviv.net/pro-lviv.html" target="_blank">Про Львів</a>| 
-
-				</nav>				
+				</nav>	
 			</div>
 			<div class="middle">
 				<div class="left">
-					<img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117135/1117135x900.jpg" alt="" width="100%" height="25%" 
-					<a href="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117135/1117135x900.jpg" target="_blank"></a>
-					
-					<img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117136/1117136x900.jpg" alt="" width="100%" height="25%">
-					<img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117147/1117147x900.jpg" alt="" width="100%" height="25%">
-					<img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117137/1117137x900.jpg" alt="" width="100%" height="25%">
-					
+					<a href="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117147/1117147x900.jpg" target="_blank"><img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117147/1117147x900.jpg" alt="" width="100%" height="25%">
+					</a>	
+									
+					<a href="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117135/1117135x900.jpg" target="_blank">
+  					<img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117135/1117135x900.jpg" alt="Львівська майстерня шоколаду" width="100%" height="25%">
+					</a>	
+
+					<a href="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117136/1117136x900.jpg" target="_blank"><img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117136/1117136x900.jpg" alt="" width="100%" height="25%">
+					</a>
+
+					<a href="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117137/1117137x900.jpg" target="_blank"><img src="https://img.hotels24.ua/photos/ria/news_content/111/11171/1117137/1117137x900.jpg" alt="" width="100%" height="25%">
+					</a>
+
 				</div>
 				<div class="center">
 					<h2>Lviv Coffee Festival</h2>	
+					<b>	
+						<p>Під час фестивалю Lviv Coffee Festival у Львові, який тривав протягом 24-26 вересня, традиційно обрали найкращу кав’ярню міста. Цього року цей титул вперше отримала мережа Kredens Cafe.
 
-					<p>Під час фестивалю Lviv Coffee Festival у Львові, який тривав протягом 24-26 вересня, традиційно обрали найкращу кав’ярню міста. Цього року цей титул вперше отримала мережа Kredens Cafe.
+						Як повідомили ZAXID.NET організатори Lviv Coffee Festival, голосування за найкращу кав’ярню Львова відбувалось у два етапи: спочатку львів’яни голосували на сайті, а потім мали змогу проголосувати офлайн за улюблену кав’ярню безпосередньо у закладах.
 
-					Як повідомили ZAXID.NET організатори Lviv Coffee Festival, голосування за найкращу кав’ярню Львова відбувалось у два етапи: спочатку львів’яни голосували на сайті, а потім мали змогу проголосувати офлайн за улюблену кав’ярню безпосередньо у закладах.
+						Найкращу кав’ярню Львова-2021 нагородили увечері неділі, 26 вересня. Нею стала мережа Kredens Cafe. Нагороду отримав власник цієї мережі кав’ярень Арсен Шлапак.</p>
 
-					Найкращу кав’ярню Львова-2021 нагородили увечері неділі, 26 вересня. Нею стала мережа Kredens Cafe. Нагороду отримав власник цієї мережі кав’ярень Арсен Шлапак.</p>
+						<p>Мережа кав’ярень Kredens Cafe налічує шість закладів у Львові, перший з яких відкрили у 2010 році.</p>
 
-					<p>Мережа кав’ярень Kredens Cafe налічує шість закладів у Львові, перший з яких відкрили у 2010 році.</p>
+						<p>Фестиваль Lviv Coffee Festival проходить у Львові з 2007 року у Палаці Потоцьких на вул. Коперника. Під час святкувань традиційно проводять конкурс, де визначають найкращу кав’ярню року. У 2020 році фестиваль не проводили через карантинні обмеження, а у 2019 році титул найкращої кав'ярні міста отримала «Світ кави на Ринку».</p>
 
-					<p>Фестиваль Lviv Coffee Festival проходить у Львові з 2007 року у Палаці Потоцьких на вул. Коперника. Під час святкувань традиційно проводять конкурс, де визначають найкращу кав’ярню року. У 2020 році фестиваль не проводили через карантинні обмеження, а у 2019 році титул найкращої кав'ярні міста отримала «Світ кави на Ринку».</p>
-
-					<p>Раніше найкращими кав’ярнями Львова визнавали «Світ кави» (5 разів), «Вірменка» (тричі), Glory Cafe (двічі), «Під Клепсидрою» і «Віденська кав’ярня» (по разу).</p>
-					<p>&#9749;</p>
-
+						<p>Раніше найкращими кав’ярнями Львова визнавали «Світ кави» (5 разів), «Вірменка» (тричі), Glory Cafe (двічі), «Під Клепсидрою» і «Віденська кав’ярня» (по разу).</p>
+				    </b>
+					<center><img src="https://cdn.website.dish.co/media/06/db/825557.jpg" width="20%" higth="20%" alt="Філіжанка кави"></center>
 				</div>
 				<div class="right">
-					<p class="rating"><b>Рейтинг:</b></p>
+					<p class="rating"><b>TOP-10</b></p>
 					<ul>
 						<li>Мережа Kredens Cafe</li>					
 						<li>Стильна кав’ярня – «SDV Coffee»</li>
@@ -131,19 +137,16 @@
 						<li>Відкриття року – «Старий Львів»</li>
 						<li>Кава і до кави – «Про100 КАВА»</li>
 						<li>Art кав’ярня – «Кав'ярня-галерея «Штука»</li>
+						<li>Львівська майстерня шоколаду</li>			
+						<li>Світ кави на Ринку</li>			
+						<li>Вірменка</li>	
 					</ul>		
-						
-
 				</div>
 			</div>
 			<div class="bottom">
-			 	<p>Copyright © 2021 K&ampM&ampE, &#128386 &#9990</p>
+			 	<p>Контакти: &#128386: osvita.kme@gmail.com; &#9990: (+380)-638488263;  <a href="https://osvita-kme.github.io/Coffe/mykhaylokhomits2.html" target="_blank"> GitHub;</a> Copyright © 2021 K&ampM&ampE</p>
 			</div>
 		</div>
 	</main>
-
-	<footer>
-
-	</footer>
 </body>
 </html>
